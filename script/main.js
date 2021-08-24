@@ -186,7 +186,7 @@ const animationTimeline = () => {
       ".lydia-dp",
       0.5,
       {
-        scale: 3.5,
+        scale: 2,
         opacity: 0,
         x: 25,
         y: -25,
@@ -272,7 +272,7 @@ const animationTimeline = () => {
   // Restart Animation on click
   const replyBtn = document.getElementById("replay");
   replyBtn.addEventListener("click", () => {
-    tl.restart();
+    window.location.href = "https://hbd-winni.herokuapp.com/"
   });
 };
 
